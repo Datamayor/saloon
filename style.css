@@ -1,0 +1,236 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient( rgba(11, 10, 10, 0.65), rgba(11, 11, 11, 0.65)), url('images/Mask\ group.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.text1{
+    color: rgb(255, 145, 0);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 145, 0);
+    outline: 0;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 110px;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border:  1px solid white ;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 110px;
+}
+
+.container1{
+    margin-top: 100px;
+   
+}
+
+.container2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container3{
+    width: 100%;
+    min-height: 90vh;
+    background-image: linear-gradient( rgba(255, 255, 255,0.1), rgba(255, 255, 255,0.1)), url('images/WE\ ARE\ OPEN\ 1.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+.container4{
+    position: relative;
+    display: flex;
+}
+
+.container5{
+    width: 50%;
+}
+.img1{
+    position: absolute;
+    top: 7rem;
+    height: 282px;
+    width: 188px;
+    
+}
+.img2{
+    position: absolute;
+    top: 7rem;
+    left: 14rem;
+    height: 118px;
+    width: 161px;
+}
+.img3{
+    border: 9px solid white;
+    position: absolute;
+    top: 19rem;
+    left: 8rem;
+    height: 292px;
+     width: 214px;
+
+}
+
+.container6{
+    width: 400px;
+    margin-top: 11rem;
+
+}
+
+.text2{
+     color: rgb(255, 145, 0);
+     font-size: 29px;
+}
+
+.text3{
+     font-size: 47px;
+     line-height: 50px;
+     font-weight: 900;
+}
+
+.text4{
+    color: #565656;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.container7{
+    width: 100%;
+    min-height: 50vh;
+    background-image: linear-gradient( rgba(11, 10, 10, 0.65), rgba(11, 11, 11, 0.65)), url('images/Mask\ group.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+.btn3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 145, 0);
+    outline: 0;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    width: 258px;
+    height: 53px;
+padding: 18px 53px 18px 53px;
+
+}
+
+.container8{
+    margin-top: 100px;
+}
+.container10{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container9{
+    margin-top: 5rem;
+    background-color: white;
+    height: 283px;
+     width: 320px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
+
+}
+
+.img4{
+    margin-top: 30px;
+}
+
+.text6{
+    color:  #B8B8B8;
+
+}
+
+.text7{
+   font-weight: 900;
+   font-size: 20px;
+}
+
+.img5{
+    height: 34px;
+width: 34px;
+
+}
+
+.container12{
+    display: flex;
+    margin-top: 7rem;
+    width: 80%;
+    margin: 7rem auto 0;
+}
+
+.container14{
+    background-color:#FBB034;
+    padding: 10px;
+}
+.container13{
+    display: flex;
+}
+
+
