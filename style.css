@@ -2,9 +2,13 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
+button:hover{
+    color: white;
+    background-color: #432e0b;
+}
 .container{
     width: 100%;
     min-height: 70vh;
