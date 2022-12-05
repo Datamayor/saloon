@@ -282,7 +282,7 @@ width: 34px;
 }
 
 .container16{
-    background-image: url(/images/unsplash_MUdB4YzDeKA.png);
+    background-image: url(./images/unsplash_MUdB4YzDeKA.png);
     background-size: cover;
     width: 60%;
 }
@@ -431,7 +431,7 @@ gap: 3rem;
 }
 
 .container25{
-    background-image: url(/images/unsplash_MUdB4YzDeKA.png);
+    background-image: url(./images/unsplash_MUdB4YzDeKA.png);
     background-size: cover;
     width: 40rem;
     height: 50vh;
