@@ -542,3 +542,55 @@ color: white;
     font-size: 20px;
     color: white;
 }
+
+.img11{
+    width: 32px;
+    background-size: auto;
+}
+.container31{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 23rem;
+    background-color: black;
+}
+.container32{
+    margin-top: 13rem;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+.container33{
+    margin-top: 6rem;
+}
+.container34{
+      margin-top: 7rem;
+}
+
+.btn8{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    outline: 0;
+    background-color: rgb(255, 145, 0);
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+    width: 198px;
+    height: 53px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.text28{
+    font-size: 20px;
+  color:  #B3B3B3;
+  ;
+}
+.text29{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
