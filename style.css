@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    max-width: 1680px;
+}
+
 button:hover{
     color: white;
     background-color: #432e0b;
