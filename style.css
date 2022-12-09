@@ -57,6 +57,8 @@ nav ul li a{
 
 .btn{
     display: flex;
+    font-size: 0.8rem;
+    text-align: center;
     align-items: center;
     padding: 10px 20px;
     border: 1px solid rgb(255, 145, 0);
