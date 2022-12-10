@@ -13,6 +13,7 @@ body{
 button:hover{
     color: white;
     background-color: #432e0b;
+    transition: 0.3s;
 }
 .container{
     width: 100%;
@@ -36,6 +37,7 @@ nav ul{
     width: 100%;
     text-align: right;
     padding-right: 3rem;
+    margin-top: -30px;
 }
 
 nav ul li{
@@ -55,7 +57,7 @@ nav ul li a{
     color: rgb(255, 145, 0);
 }
 
-.btn{
+.btn01{
     display: flex;
     font-size: 0.8rem;
     text-align: center;
@@ -68,6 +70,21 @@ nav ul li a{
     font-weight: 500;
     cursor: pointer;
     width: 8rem;
+    margin-top: -40px;
+}
+
+.btn{
+    display: flex;
+    font-size: 0.8rem;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 145, 0);
+    outline: 0;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 h1{
@@ -566,6 +583,7 @@ color: white;
     background-color: black;
 }
 .container32{
+    position: relative;
     margin-top: 16rem;
     display: flex;
     justify-content: center;
@@ -609,5 +627,14 @@ color: white;
 }
 
 .img12{
+    margin-top: -17px;
+    margin-left: -130px;
     width: 16rem;
+}
+
+.img13{
+    position: absolute;
+    width: 16rem;
+    top: -16rem;
+    left: -12rem;
 }
