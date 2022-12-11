@@ -542,7 +542,8 @@ gap: 3rem;
 .container27{
     display: flex;
     justify-content: center;
-    gap: 22rem;
+    gap: 20rem;
+    margin: 0 auto;
 
 }
 .container28{
