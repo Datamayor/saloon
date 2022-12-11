@@ -6,8 +6,8 @@
 }
 
 body{
-    max-width: 1680px;
-    margin: 0;
+    max-width: 1650px;
+    margin: 0 auto;
 }
 
 button:hover{
