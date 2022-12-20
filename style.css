@@ -1371,6 +1371,7 @@ color: white;
         background-color:#FBB034;
         padding: 3rem;
         width: 300px;
+        padding: 0;
     }
     .container13{
         display: flex;
@@ -1637,7 +1638,7 @@ color: white;
         margin-top: 3.32rem;
     }
     .container27{
-        display: flex;
+        display: block;
         justify-content: center;
         gap: 20rem;
         margin: 0 auto;
@@ -1683,19 +1684,20 @@ color: white;
     }
     
     .img11{
+        margin-top: 60px;
         width: 32px;
         background-size: auto;
     }
     .container31{
-        height: 26rem;
-        display: flex;
+        height: 35rem;
+        display: block;
         justify-content: center;
-        gap: 23rem;
+        gap: 3rem;
         background-color: black;
     }
     .container32{
         position: relative;
-        margin-top: 16rem;
+        margin-top: 2rem;
         display: flex;
         justify-content: center;
         gap: 1.2rem;
@@ -1746,7 +1748,7 @@ color: white;
     .img13{
         position: absolute;
         width: 16rem;
-        top: -16rem;
-        left: -40px;
+        top: -1rem;
+        left: -20px;
     }
 }
