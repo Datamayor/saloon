@@ -652,7 +652,9 @@ color: white;
     top: -16rem;
     left: -40px;
 }
-
+.img14{
+    margin: 2.2rem 0.6rem;
+}
 @media only screen and  (max-width:1380px) {
     
     body{
@@ -1030,6 +1032,10 @@ color: white;
         margin-left: 10px;
     }
     .img10{
+        width: 270px;
+        margin: 2rem 0.6rem;
+    }
+    .img14{
         width: 270px;
         margin: 2rem 0.6rem;
     }
