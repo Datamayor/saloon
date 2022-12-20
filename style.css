@@ -1124,7 +1124,7 @@ color: white;
     }
 }
 
-@media  only screen and (max-width: 1000px) {
+@media  only screen and (max-width: 1100px) {
     
     body{
         max-width: 650px;
@@ -1361,22 +1361,22 @@ color: white;
     }
     
     .container12{
-        display: flex;
+        display: block;
         margin-top: 7rem;
-        width: 80%;
+        width: 600px;
         margin: 7rem auto 0;
     }
     
     .container14{
         background-color:#FBB034;
         padding: 3rem;
-        width: 50rem;
+        width: 300px;
     }
     .container13{
         display: flex;
         justify-content: space-between;
         padding: 20px 0;
-        width: 500px;
+        width: 200px;
         border-bottom: 2px  dotted black;
     }
     
@@ -1413,7 +1413,8 @@ color: white;
     .container16{
         background-image: url(./images/unsplash_MUdB4YzDeKA.png);
         background-size: cover;
-        width: 50rem;
+        width: 300px;
+        height: 40vh;
     }
     
     .container17{
