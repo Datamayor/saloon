@@ -1133,8 +1133,8 @@ color: white;
 @media  only screen and (max-width: 1100px) {
     
     body{
-        max-width: 650px;
-        margin: 0 auto;
+        max-width: 800px;
+        margin: auto;
     }
     .container{
         width: 100%;
@@ -1436,7 +1436,7 @@ color: white;
     .container16{
         background-image: url(./images/unsplash_MUdB4YzDeKA.png);
         background-size: cover;
-        width: 100%;
+        width: 96%;
         height: 40vh;
         margin: auto;
         padding: 0;
@@ -1733,7 +1733,6 @@ color: white;
         background-color: black;
     }
     .container32{
-        position: relative;
         margin-top: 0rem;
         display: flex;
         justify-content: center;
@@ -1742,7 +1741,7 @@ color: white;
     }
     .container33{
         padding: 30px;
-        margin-top: 7rem;
+        margin-top: 3rem;
         width: 17rem;
         font-size: 1rem;
     }
@@ -1770,12 +1769,11 @@ color: white;
         margin-top: 40px;
     }
     .text28{
-        font-size: 20px;
       color:  #B3B3B3;
       ;
     }
     .text29{
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
     }
@@ -1787,10 +1785,8 @@ color: white;
     }
     
     .img13{
-        position: absolute;
         width: 16rem;
-        top: 5rem;
-        left: 65px;
+
         margin: auto;
     }
 }
