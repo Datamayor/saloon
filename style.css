@@ -961,6 +961,7 @@ color: white;
     .container26{
         margin-top: 2rem;
         width: 27rem;
+        border-top: 2px  solid black;
     }
     
     .text21{
@@ -1144,8 +1145,8 @@ color: white;
 @media  only screen and (max-width: 1100px) {
     
     body{
-        max-width: 800px;
-        margin: auto;
+        max-width: 700px;
+        margin: 0 auto;
     }
     .container{
         width: 100%;
@@ -1244,6 +1245,7 @@ color: white;
         background-size: cover;
         background-position: center;
         padding: 10px 8%;
+        border: 0 2px solid black;
     }
     
     .container4{
@@ -1402,6 +1404,7 @@ color: white;
         width: 400px;
         height: 350px;
         padding: 20px;
+        margin:  2px 0 solid white;
     }
     .container13{
         display: flex;
@@ -1412,7 +1415,7 @@ color: white;
     }
     
     .text9{
-        width: 4300px;
+        width: 320px;
         font-weight: 700;
         font-size: 20px;
     }
