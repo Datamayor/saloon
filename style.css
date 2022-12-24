@@ -1405,6 +1405,7 @@ color: white;
         height: 350px;
         padding: 20px;
         margin:  2px 0 solid white;
+        border-radius: 10px;
     }
     .container13{
         display: flex;
