@@ -686,8 +686,8 @@ color: white;
     }
     
     nav ul{
-        padding-right: 2rem;
-        margin-top: -40px;
+        padding-right: 1rem;
+        margin-top: -160px;
     }
     
     
@@ -695,17 +695,17 @@ color: white;
         display: flex;
         text-align: center;
         align-items: center;
-        padding: 10px 20px;
+        padding: 10px 30px;
         border: none;
         outline: 0;
         background-color: rgb(255, 145, 0);
         color: white;
         font-weight: 900;
         cursor: pointer;
-        width: 198px;
-        height: 49px;
+        width: 190px;
+        height: 46px;
         font-size: 20px;
-        margin-top: -50px;
+        margin-top: -170px;
     }
     h1{
         font-size: 2rem;
@@ -1166,7 +1166,7 @@ color: white;
     }
     .container{
         width: 100%;
-        min-height: 33vh
+        min-height: 42vh
     }
      
     .jem{
@@ -1285,7 +1285,7 @@ color: white;
  {
    position: absolute;
    width: 410px;
-   margin: -200px 0 0 -200px;
+   margin: -200px 0 0 -260px;
    padding: 25px;
    padding-top: 161px;
    
