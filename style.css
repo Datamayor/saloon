@@ -1261,6 +1261,8 @@ color: white;
     .container5{
         position: absolute;
         width: 100%;
+        margin-top: -12rem;
+        
     }
     .img1{
         position: absolute;
@@ -1291,8 +1293,10 @@ color: white;
     }
     
     .container6{
+        border-top: 2px solid black;
         width:100%;
-        margin-top: 1rem;
+        margin-top: 14rem;
+        margin-bottom: 20px;
     
     }
     
