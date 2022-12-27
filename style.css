@@ -1172,7 +1172,7 @@ color: white;
  #menuToggle a
  {
    text-decoration: none;
-   color: #232323;
+   color: #ede2e2;
    
    transition: color 0.3s ease;
  }
@@ -1211,7 +1211,7 @@ color: white;
    margin-bottom: 5px;
    position: relative;
    
-   background: #cdcdcd;
+   background: #ffffff;
    border-radius: 3px;
    
    z-index: 1;
@@ -1273,7 +1273,7 @@ color: white;
    padding: 25px;
    padding-top: 61px;
    
-   background: #ededed;
+   background: #786f6f;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */
