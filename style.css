@@ -1208,6 +1208,7 @@ color: white;
         cursor: pointer;
         width: 78px;
         height: 8px;
+        margin: auto;
     }
     
     h1{
@@ -1216,6 +1217,8 @@ color: white;
     }
     
     .btn1{
+        margin: auto;
+        margin-top: 5px;
         display: flex;
         align-items: center;
         padding: 1px 20px;
@@ -1229,11 +1232,12 @@ color: white;
     }
     
     .container1{
-        margin-top: 100px;
+        margin-top: 80px;
        
     }
     
     .container2{
+        justify-content: center;
         display: block;
         gap: 10px;
         align-items: center;
