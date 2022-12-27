@@ -10,6 +10,10 @@ body{
     margin: 0 auto;
 }
 
+.jem{
+    display: none;
+}
+
 button:hover{
     color: white;
     background-color: #432e0b;
@@ -37,12 +41,12 @@ nav ul{
     width: 100%;
     text-align: right;
     padding-right: 3rem;
-    margin-top: -30px;
+    margin-top: -180px;
 }
 
 nav ul li{
     display: inline-block;
-    margin: 10px 20px;
+    margin: 10px 30px;
     position: relative;
 
 }
@@ -83,7 +87,7 @@ nav ul li  :hover:after{
     font-weight: 500;
     cursor: pointer;
     width: 8rem;
-    margin-top: -40px;
+    margin-top: -185px;
 }
 
 .btn{
@@ -651,7 +655,11 @@ color: white;
     margin-left: -130px;
     width: 270px;
 }
-
+.imgj{
+    margin-top: 7px;
+    margin-left: -30px;
+    width: 200px;
+}
 .img13{
     position: absolute;
     width: 16rem;
@@ -1145,8 +1153,16 @@ color: white;
 @media  only screen and (max-width: 1100px) {
     
     body{
+        position: relative;
         max-width: 700px;
         margin: 0 auto;
+    }
+    .jem{
+        display: block;
+    }
+    .diss{
+        position: absolute;
+        display: none;
     }
     .container{
         width: 100%;
@@ -1975,7 +1991,9 @@ color: white;
 }
 
 @media only  screen and (max-width:304px) {
-    
+    .diss{
+        display: none;
+    }
     .container{
         width: 100%;
         min-height: 45vh
