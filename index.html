@@ -247,6 +247,37 @@
             <button class="btn8"> <p class="text10">Book Now</p></button>
         </div>
     </div>
+      
+    <script>
+      // Select menu toggle button and menu element
+      const menuToggle = document.querySelector('#menuToggle');
+      const menu = document.querySelector('#menu');
+    
+      // Function to toggle menu visibility
+      function toggleMenu() {
+        menu.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', menu.classList.contains('active'));
+      }
+    
+      // Add event listeners
+      menuToggle.addEventListener('click', toggleMenu);
+      menu.addEventListener('keydown', event => {
+        if (event.key === 'Escape' || event.key === 'Esc') {
+          toggleMenu();
+        }
+      });
+    
+      // Close menu when clicking outside of it
+      document.addEventListener('click', event => {
+        if (!menu.contains(event.target) && menu.classList.contains('active')) {
+          toggleMenu();
+        }
+      });
+    
+      // Add aria-haspopup attribute to menu toggle button
+      menuToggle.setAttribute('aria-haspopup', 'true');
+    </script>
+    
 
   </body>
 </html>
